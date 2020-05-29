@@ -1,0 +1,275 @@
+/* FONTS */
+
+@font-face {
+	font-family: "FiraSans-Bold.otf";
+	src: url('../fonts/FiraSans-Bold.otf') format('truetype'); 
+}
+
+@font-face {
+	font-family: "Alex Brush";
+	src: url('../fonts/AlexBrush-Regular.ttf') format('truetype'); 
+}
+
+
+
+body{
+	background-image: url(../img/side.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font: 16px/18px arial;
+}
+
+/* top-bar */
+.top-bar {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;	
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.top-bar img {
+	margin: 10px 50px;
+	text-align: center;
+	width: 200px;
+	height: 80px;	
+}
+
+.top-bar ul {
+	float: right;
+	margin-right: 50px;
+}
+
+.top-bar ul li {
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 100px;
+}
+
+.top-bar ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 5px;
+	font-family: "FiraSans-Bold" arial, sans-serif;
+	transition: 0.4s;
+}
+
+.top-bar ul li h2 {
+	text-decoration: none;
+	line-height: 100px;
+	color: white;
+	font-size: 20px;
+	padding: 0px 20px;
+	font-family: "FiraSans-Bold" arial, sans-serif;
+	cursor: default;
+}
+
+
+.top-bar ul li a.active,
+.top-bar ul li a:hover {
+	background-color: red;
+	border-radius: 20px;
+}
+
+/* user */
+.top-bar ul li a i {
+	justify-content: space-between;
+	font-size: 25px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+i {
+	width: 30px;
+	height: 30px;
+	color: black
+}
+
+
+
+/* container */
+.container {
+	background-image: url(../img/front.jpg);
+	background-size: cover;
+	border: 2px solid white;
+	width: 1200px;
+	height: 1200px;
+	margin: 80px auto;
+	position: relative;
+}
+
+.container .sidebar {
+	width: 500px;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0; 
+	padding: 10px 10px; 
+	margin-right: 30px;
+	background-image: url(../img/old.jpg);
+	background-size: cover;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container .sidebar h2 {
+	margin-top: 350px;
+	padding: 2px 10px;
+	font-weight: bold;
+	text-shadow: 10px 10px 10px black;
+	color: white;
+	font-size: 80px;
+	font-family: "Alex Brush", arial, sans-serif;
+	text-align: center;
+	word-spacing: 10px; 
+}
+
+/* Main form */
+.container .box {
+	width: 700px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 15px 15px;
+	float: left;
+}
+
+.container .box .box-top{
+	margin-top: 40px;
+	width: 100%;
+	height: 200px;
+	padding: 5px 5px;
+}
+
+.container .box .box-top h1 {
+	font-size: 60px;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	text-align: center;
+}
+
+.container .box .main-box {
+	margin-right: 15px;
+	padding: 2px 2px;
+}
+
+.container .box .main-box label {
+	margin-left: 118px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container .box .main-box input {
+	margin-left: 118px;
+	width: 70%;
+	height: 35px;
+	border: 2px solid black;
+	background-color: rgb(230,230,230);
+	border-radius: 35px;
+}
+
+.container .box .main-box .myfile label {
+	margin-left: 118px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container .box .main-box .myfile input {
+	width: 70%;
+	padding: 0;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+}
+
+small {
+	margin-left: 10px;
+	color: white;
+}
+
+.container .box .bot-box {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.container .box .bot-box button a {
+	text-decoration: none;
+	color: white;
+}
+
+.container .box .bot-box button {
+	width: 300px;
+	height: 60px;
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: red;	
+	font-size: 20px;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: 0.4s;
+	color: white;
+}
+
+.container .box .bot-box button:hover {
+	background-color: rgb(204,0,0);
+}
+
+.container .box .kembali {
+	text-align: right;
+	margin-top: 40px;
+}
+
+
+.container .box .kembali a {
+	text-decoration: none;
+	color: black;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-weight: bold; 
+}
+
+.container .box .kembali a:hover {
+	color: red;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Copyright */
+.container .copyright {
+	background-color: black;
+	width: 1200px;
+	height: 50px;
+	position: absolute;
+	bottom: -17px;
+	left: -486px;
+	right: 0;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.copyright p {
+	color: white;
+	font-size: 10px;
+	font-family: arial;
+	line-height: 50px;
+}

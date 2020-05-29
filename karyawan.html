@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form Tambah Loker</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/karyawan.css">
+		<link rel="stylesheet" type="text/css" href="css/microclearfix.css">
+	</head>
+	<body>
+		<div class="top-bar">
+			<img src="img/hf_cascade_white.png" alt="hf_cascade_white">
+			<ul>
+				<li><a href="">Untuk Perusahaan</a></li>
+				
+				<li><h2>|</h2></li>
+					
+				<li><a href="" class="active"><i class="fa fa-user"></i>User</a></li>
+				<li><a href="">Setting</a></li>
+				<li><a href="mainpage.html">Log Out</a></li>
+			</ul>
+		</div>
+
+		<div class="container cf">
+			<div class="sidebar">
+				<h2>Get your job<br><br><br>and find more<br><br><br>new experience<br><br><br>here</h2>
+			</div>	
+
+			<div class="box">
+<!-- TOP -->
+				<div class="box-top">
+					<h1>Application Form</h1>
+				</div>
+
+				<div class="main-box">
+	<!-- PERUSAHAAN -->
+					<label for="perusahaan">Name</label><br>
+					<input type="text" id="perusahaan" required=" ">
+					<br><br>
+	<!-- TELEPHONE -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="phone">Enter a phone number:</label><small>format Ex : 0896-296-848-50</small><br>
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}-[0-9]{2}" required><br><br>
+					</form>
+	<!-- EMAIL PERUSAHAAN -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="alamat_email">Email</label><br>
+						<input type="email" id="alamat_email"><br><br>
+					</form>
+	<!-- KOTA-->
+					<label for="education">Last Education</label><br>
+					<input type="text" id="education" required=" ">
+					<br><br>				
+	<!-- KOTA-->
+					<label for="kota">City</label><br>
+					<input type="text" id="kota" required=" ">
+					<br><br>
+	<!-- POSTAL CODE -->
+					<label for="code">Postal Code</label><br>
+					<input type="text" id="code" required=" ">
+					<br><br>
+				<div class="myfile">
+	<!-- FOTO PERUSAHAAN -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="myfile">Attach a profile photo :</label><br>
+						<input type="file" id="foto" accept='image/*'><br><br>
+		       	<!-- "accept" digunakan untuk target yg dituju -->
+					</form>
+	<!-- KETERANGAN TAMBAHAN -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="file">Attach cv and certificate</label><small>format : .pdf</small><br>
+						<input type="file" id="file">
+						<br><br>
+					</form>
+				</div>
+				<div class="bot-box">	
+					<button type="submit"><a href="HF-cascade.html">Upload</a></button>
+					<button type="reset">Hapus</button>
+				</div>
+				<div class="kembali"><a href="HF-cascade.html">Kembali -></a></div>
+			</div>		
+
+			
+			<div class="copyright">
+				<p>Created by <span>HafidhAhmadFauzan</span> | @2020 All right reserved.</p>
+	 		</div>
+		</div>	
+	</body>
+</html>

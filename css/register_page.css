@@ -1,0 +1,164 @@
+/* FONTS */
+@font-face {
+	font-family: "FiraSans-Bold";
+	src: url('../fonts/FiraSans-Bold.otf') format('truetype');
+}
+
+@font-face {
+	font-family: "Alex Brush";
+	src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
+body {
+	font: 16px/28px arial, sans-sherif;
+	background-color: #eaeae1;
+	background-image: url(../img/sky_road.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 1200px;
+	height: 900px;
+	margin: 80px auto;
+	background-color: white;
+	padding: 20px;
+	position: relative;  
+}
+
+/* SIDEBAR */
+.container .sidebar {
+	width: 500px;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0; 
+	padding: 10px 10px; 
+	margin-right: 30px;
+	background-image: url(../img/dark_road.jpg);
+	background-size: cover;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container .sidebar h2 {
+	margin-top: 350px;
+	padding: 2px 10px;
+	font-weight: bold;
+	text-shadow: 10px 10px 10px black;
+	color: white;
+	font-size: 80px;
+	font-family: "Alex Brush", arial, sans-serif;
+	text-align: center;
+	word-spacing: 10px; 
+}
+
+/* BOX */
+.container .box {
+	width: 700px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 15px 15px;
+	float: left;
+}
+
+.container .box .box-top{
+	margin-top: 40px;
+	width: 100%;
+	height: 200px;
+	padding: 5px 5px;
+}
+
+.container .box .box-top h1 {
+	font-size: 60px;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	text-align: center;
+}
+
+.container .box .box-top p {
+	text-align: center;
+	text-decoration: none;
+}
+
+.container .box .main-box {
+	margin-right: 15px;
+	padding: 2px 2px;
+}
+
+.container .box .main-box label {
+	margin-left: 118px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container .box .main-box input {
+	margin-left: 118px;
+	width: 70%;
+	height: 35px;
+	border: 2px solid black;
+	background-color: rgb(230,230,230);
+	border-radius: 35px;
+}
+
+.container .box .main-box select {
+	padding-left: 5px;
+	margin-left: 118px;
+	width: 70%;
+	height: 45px;
+	border: 2px solid black;	
+	background-color: rgb(230,230,230);
+	border-radius: 45px;
+}
+
+.container .box .bot-box {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.container .box .bot-box button a {
+	text-decoration: none;
+	color: white;
+}
+
+.container .box .bot-box button {
+	width: 300px;
+	height: 60px;
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: red;	
+	font-size: 20px;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: 0.4s;
+	color: white;
+}
+
+.container .box .bot-box button:hover {
+	background-color: rgb(204,0,0);
+}
+
+.container .box .kembali {
+	text-align: right;
+	margin-top: 40px;
+}
+
+
+.container .box .kembali a {
+	text-decoration: none;
+	color: black;
+	font-family: "FiraSans-Bold", arial, sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.container .box .kembali a:hover {
+	color: red;
+	font-size: 20px;
+}

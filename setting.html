@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Setting</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/setting.css">
+		<link rel="stylesheet" type="text/css" href="css/microclearfix.css">
+	</head>
+	<body>
+		<div class="top-bar">
+			
+			<ul>
+				<li><a href="perusahaan.html">For Company</a></li>
+				
+				<li><h2>|</h2></li>
+					
+				<li><a href="" class="active"><i class="fa fa-user"></i>User</a></li>
+				<li><a href="setting.html">Setting</a></li>
+				<li><a href="mainpage.html">Log Out</a></li>
+			</ul>
+		</div>
+
+		<div class="container cf">
+			<div class="sidebar">
+				<h2>Welcome<br><br><br>in my setting,<br><br><br>It's me</h2>
+			</div>	
+
+			<div class="box">
+<!-- TOP -->
+				<div class="box-top">
+					<h1>Setting</h1>
+				</div>
+
+				<div class="main-box">
+	<!-- Current Username -->
+					<label for="currentusername">Current Username</label><br>
+					<input type="text" id="currentusername" required>
+					<br><br>
+	<!-- New Username -->
+					<label for="newusername">New Username</label><br>
+					<input type="text" id="newtusername" required>
+					<br><br>
+	<!-- Current Email -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="currentemail">Current Email</label><br>
+						<input type="email" id="currentemail" required><br><br>
+					</form>
+	<!-- NewEmail -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="new_email">New Email</label><br>
+						<input type="email" id="new_email" required><br><br>
+					</form>
+	<!-- Current Password -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="currentpassword">Current Password</label><br>
+						<input type="Password" id="currentpassword" required><br><br>				
+					</form>
+	<!-- New Password -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="newpassword">New Password</label><br>
+						<input type="Password" id="newpassword" required><br><br>
+					</form>
+	<!-- Confirm Password -->
+					<form action="/action_page.php" method="post" enctype="multipart/form-data">
+						<label for="code">Confirm Password</label><br>
+						<input type="Password" id="code" required><br><br>
+					</form>
+				</div>
+				<div class="bot-box">	
+					<button type="submit"><a href="HF-cascade.html">Confirm</a></button>
+				</div>
+			
+			<div class="copyright">
+				<p>Created by <span>HafidhAhmadFauzan</span> | @2020 All right reserved.</p>
+	 		</div>
+		</div>	
+	</body>
+</html>
